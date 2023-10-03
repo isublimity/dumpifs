@@ -1,4 +1,4 @@
-# dumpifs
+# dumpifs (mac)
 Dirty hack dumpifs.
 Modified to be compiled on most platform without QNX SQP.
 

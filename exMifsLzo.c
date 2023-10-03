@@ -73,7 +73,9 @@ int main(int argc, char **argv)
 		printf("Block count=%d Total Size=%d + 2048=%d (%x)\n", v2, v7, v7+2048, v7+2048);
 		v7=0;maxBlkSize=0;
 		if(lzo_init() != LZO_E_OK) {
-			error(1, "decompression init failure");
+            // TODO Fix for Mac
+//			error(1, "decompression init failure");
+            printf("decompression init failure");
 			return 0;
 		}
 

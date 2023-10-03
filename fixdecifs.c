@@ -7,6 +7,7 @@
 
 #include "sys/image.h"
 #include "sys/startup.h"
+#include <string.h>
 
 #define ENDIAN_RET32(x)		((((x) >> 24) & 0xff) | \
 							(((x) >> 8) & 0xff00) | \

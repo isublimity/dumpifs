@@ -1,4 +1,4 @@
-CC=clang
+CC=clang -std=gnu11
 QCC=qcc.exe -V4.4.2,gcc_ntoarmv7le
 QLIB=-lz -lnbutil -lucl -llzo -DQNX -I includeQNX/
 LIB=-lz -llzo2 -lucl -llz4
